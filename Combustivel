@@ -1,0 +1,22 @@
+program desafioDois;
+
+    var tempo: real;
+    var velocidade: real;
+    var distancia: real; 
+    var litros_usados: real;
+    
+begin 
+    writeln('informe o tempo gasto na viagem');
+    readln(tempo);
+    
+    writeln('informe a velocidade');
+    readln(velocidade);
+    
+    dinstancia := (tempo*velocidade);
+    litros_usados := (distancia/12);
+    
+    writeln('a velocidade que estava era', velocidade);
+    writeln('o tempo da viagem foi', tempo);
+    writeln('a distancia percorrida foi de', distancia);
+    writeln('a quantidade de litros gastos foi', litros_usados);
+end.
